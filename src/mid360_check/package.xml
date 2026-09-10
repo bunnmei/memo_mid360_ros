@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<!--
+  ============================================================================
+   package.xml : ROS 2 パッケージの「身分証明書」
+  ============================================================================
+   パッケージ名・バージョン・依存関係を書くファイルです。
+   ROS はこれを見てビルド順序を決めたり、rosdep が不足パッケージを
+   自動インストールしたりします。
+  ============================================================================
+-->
+<package format="3">
+  <name>mid360_check</name>
+  <version>0.1.0</version>
+  <description>Livox Mid-360 の動作確認用ノード（点群 / IMU の受信状況を数値で判定）</description>
+  <maintainer email="frenchpress090@gmail.com">humi</maintainer>
+  <license>MIT</license>
+
+  <!-- exec_depend = 「実行するときに必要なもの」 -->
+  <exec_depend>rclpy</exec_depend>        <!-- ROS 2 の Python ライブラリ -->
+  <exec_depend>sensor_msgs</exec_depend>  <!-- PointCloud2 / Imu メッセージ型 -->
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>python3-numpy</exec_depend><!-- 点群の高速な数値処理に使用 -->
+
+  <export>
+    <!-- Python で書かれたパッケージであることを ROS に伝える -->
+    <build_type>ament_python</build_type>
+  </export>
+</package>

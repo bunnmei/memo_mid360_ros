@@ -1,0 +1,3 @@
+[console_scripts]
+check_node = mid360_check.check_node:main
+

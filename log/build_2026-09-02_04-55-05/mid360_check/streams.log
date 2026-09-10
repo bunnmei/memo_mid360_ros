@@ -1,0 +1,41 @@
+[1.390s] Invoking command in '/home/humi/livox_ws/src/mid360_check': PYTHONPATH=/home/humi/livox_ws/build/mid360_check/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/humi/livox_ws/install/mid360_check/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mid360_check build --build-base /home/humi/livox_ws/build/mid360_check/build install --record /home/humi/livox_ws/build/mid360_check/install.log --install-scripts $base/lib/mid360_check --single-version-externally-managed install_data
+[2.385s] running egg_info
+[2.386s] creating ../../build/mid360_check/mid360_check.egg-info
+[2.386s] writing ../../build/mid360_check/mid360_check.egg-info/PKG-INFO
+[2.386s] writing dependency_links to ../../build/mid360_check/mid360_check.egg-info/dependency_links.txt
+[2.386s] writing entry points to ../../build/mid360_check/mid360_check.egg-info/entry_points.txt
+[2.387s] writing requirements to ../../build/mid360_check/mid360_check.egg-info/requires.txt
+[2.387s] writing top-level names to ../../build/mid360_check/mid360_check.egg-info/top_level.txt
+[2.387s] writing manifest file '../../build/mid360_check/mid360_check.egg-info/SOURCES.txt'
+[2.389s] reading manifest file '../../build/mid360_check/mid360_check.egg-info/SOURCES.txt'
+[2.390s] writing manifest file '../../build/mid360_check/mid360_check.egg-info/SOURCES.txt'
+[2.390s] running build
+[2.390s] running build_py
+[2.390s] creating /home/humi/livox_ws/build/mid360_check/build
+[2.390s] creating /home/humi/livox_ws/build/mid360_check/build/lib
+[2.391s] creating /home/humi/livox_ws/build/mid360_check/build/lib/mid360_check
+[2.391s] copying mid360_check/check_node.py -> /home/humi/livox_ws/build/mid360_check/build/lib/mid360_check
+[2.391s] copying mid360_check/__init__.py -> /home/humi/livox_ws/build/mid360_check/build/lib/mid360_check
+[2.391s] running install
+[2.392s] running install_lib
+[2.393s] creating /home/humi/livox_ws/install/mid360_check/lib/python3.10/site-packages/mid360_check
+[2.393s] copying /home/humi/livox_ws/build/mid360_check/build/lib/mid360_check/check_node.py -> /home/humi/livox_ws/install/mid360_check/lib/python3.10/site-packages/mid360_check
+[2.393s] copying /home/humi/livox_ws/build/mid360_check/build/lib/mid360_check/__init__.py -> /home/humi/livox_ws/install/mid360_check/lib/python3.10/site-packages/mid360_check
+[2.394s] byte-compiling /home/humi/livox_ws/install/mid360_check/lib/python3.10/site-packages/mid360_check/check_node.py to check_node.cpython-310.pyc
+[2.396s] byte-compiling /home/humi/livox_ws/install/mid360_check/lib/python3.10/site-packages/mid360_check/__init__.py to __init__.cpython-310.pyc
+[2.397s] running install_data
+[2.397s] creating /home/humi/livox_ws/install/mid360_check/share/ament_index
+[2.397s] creating /home/humi/livox_ws/install/mid360_check/share/ament_index/resource_index
+[2.397s] creating /home/humi/livox_ws/install/mid360_check/share/ament_index/resource_index/packages
+[2.397s] copying resource/mid360_check -> /home/humi/livox_ws/install/mid360_check/share/ament_index/resource_index/packages
+[2.397s] copying package.xml -> /home/humi/livox_ws/install/mid360_check/share/mid360_check
+[2.398s] creating /home/humi/livox_ws/install/mid360_check/share/mid360_check/launch
+[2.398s] copying launch/mid360_check_launch.py -> /home/humi/livox_ws/install/mid360_check/share/mid360_check/launch
+[2.398s] creating /home/humi/livox_ws/install/mid360_check/share/mid360_check/rviz
+[2.398s] copying rviz/mid360.rviz -> /home/humi/livox_ws/install/mid360_check/share/mid360_check/rviz
+[2.398s] running install_egg_info
+[2.401s] Copying ../../build/mid360_check/mid360_check.egg-info to /home/humi/livox_ws/install/mid360_check/lib/python3.10/site-packages/mid360_check-0.1.0-py3.10.egg-info
+[2.402s] running install_scripts
+[2.426s] Installing check_node script to /home/humi/livox_ws/install/mid360_check/lib/mid360_check
+[2.426s] writing list of installed files to '/home/humi/livox_ws/build/mid360_check/install.log'
+[2.467s] Invoked command in '/home/humi/livox_ws/src/mid360_check' returned '0': PYTHONPATH=/home/humi/livox_ws/build/mid360_check/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/humi/livox_ws/install/mid360_check/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mid360_check build --build-base /home/humi/livox_ws/build/mid360_check/build install --record /home/humi/livox_ws/build/mid360_check/install.log --install-scripts $base/lib/mid360_check --single-version-externally-managed install_data

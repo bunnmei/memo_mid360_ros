@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/mid360_check/mid360_check.egg-info
+writing ../../build/mid360_check/mid360_check.egg-info/PKG-INFO
+writing dependency_links to ../../build/mid360_check/mid360_check.egg-info/dependency_links.txt
+writing entry points to ../../build/mid360_check/mid360_check.egg-info/entry_points.txt
+writing requirements to ../../build/mid360_check/mid360_check.egg-info/requires.txt
+writing top-level names to ../../build/mid360_check/mid360_check.egg-info/top_level.txt
+writing manifest file '../../build/mid360_check/mid360_check.egg-info/SOURCES.txt'
+reading manifest file '../../build/mid360_check/mid360_check.egg-info/SOURCES.txt'
+writing manifest file '../../build/mid360_check/mid360_check.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/humi/livox_ws/build/mid360_check/build
+creating /home/humi/livox_ws/build/mid360_check/build/lib
+creating /home/humi/livox_ws/build/mid360_check/build/lib/mid360_check
+copying mid360_check/check_node.py -> /home/humi/livox_ws/build/mid360_check/build/lib/mid360_check
+copying mid360_check/__init__.py -> /home/humi/livox_ws/build/mid360_check/build/lib/mid360_check
+running install
+running install_lib
+creating /home/humi/livox_ws/install/mid360_check/lib/python3.10/site-packages/mid360_check
+copying /home/humi/livox_ws/build/mid360_check/build/lib/mid360_check/check_node.py -> /home/humi/livox_ws/install/mid360_check/lib/python3.10/site-packages/mid360_check
+copying /home/humi/livox_ws/build/mid360_check/build/lib/mid360_check/__init__.py -> /home/humi/livox_ws/install/mid360_check/lib/python3.10/site-packages/mid360_check
+byte-compiling /home/humi/livox_ws/install/mid360_check/lib/python3.10/site-packages/mid360_check/check_node.py to check_node.cpython-310.pyc
+byte-compiling /home/humi/livox_ws/install/mid360_check/lib/python3.10/site-packages/mid360_check/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/humi/livox_ws/install/mid360_check/share/ament_index
+creating /home/humi/livox_ws/install/mid360_check/share/ament_index/resource_index
+creating /home/humi/livox_ws/install/mid360_check/share/ament_index/resource_index/packages
+copying resource/mid360_check -> /home/humi/livox_ws/install/mid360_check/share/ament_index/resource_index/packages
+copying package.xml -> /home/humi/livox_ws/install/mid360_check/share/mid360_check
+creating /home/humi/livox_ws/install/mid360_check/share/mid360_check/launch
+copying launch/mid360_check_launch.py -> /home/humi/livox_ws/install/mid360_check/share/mid360_check/launch
+creating /home/humi/livox_ws/install/mid360_check/share/mid360_check/rviz
+copying rviz/mid360.rviz -> /home/humi/livox_ws/install/mid360_check/share/mid360_check/rviz
+running install_egg_info
+Copying ../../build/mid360_check/mid360_check.egg-info to /home/humi/livox_ws/install/mid360_check/lib/python3.10/site-packages/mid360_check-0.1.0-py3.10.egg-info
+running install_scripts
+Installing check_node script to /home/humi/livox_ws/install/mid360_check/lib/mid360_check
+writing list of installed files to '/home/humi/livox_ws/build/mid360_check/install.log'

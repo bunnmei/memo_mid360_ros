@@ -1,0 +1,6 @@
+Invoking command in '/home/humi/livox_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/humi/livox_ws/src/livox_ros_driver2 -DROS_EDITION=ROS2 -DDISTRO_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/humi/livox_ws/install/livox_ros_driver2
+Invoked command in '/home/humi/livox_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/humi/livox_ws/src/livox_ros_driver2 -DROS_EDITION=ROS2 -DDISTRO_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/humi/livox_ws/install/livox_ros_driver2
+Invoking command in '/home/humi/livox_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/humi/livox_ws/build/livox_ros_driver2 -- -j4 -l4
+Invoked command in '/home/humi/livox_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/humi/livox_ws/build/livox_ros_driver2 -- -j4 -l4
+Invoking command in '/home/humi/livox_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/humi/livox_ws/build/livox_ros_driver2
+Invoked command in '/home/humi/livox_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/humi/livox_ws/build/livox_ros_driver2

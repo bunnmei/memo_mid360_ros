@@ -1,0 +1,5 @@
+/home/humi/livox_ws/install/livox_sdk2/lib/liblivox_lidar_sdk_static.a
+/home/humi/livox_ws/install/livox_sdk2/include/livox_lidar_def.h
+/home/humi/livox_ws/install/livox_sdk2/include/livox_lidar_api.h
+/home/humi/livox_ws/install/livox_sdk2/include/livox_lidar_cfg.h
+/home/humi/livox_ws/install/livox_sdk2/lib/liblivox_lidar_sdk_shared.so

@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/mid360_check/mid360_check.egg-info/PKG-INFO
+writing dependency_links to ../../build/mid360_check/mid360_check.egg-info/dependency_links.txt
+writing entry points to ../../build/mid360_check/mid360_check.egg-info/entry_points.txt
+writing requirements to ../../build/mid360_check/mid360_check.egg-info/requires.txt
+writing top-level names to ../../build/mid360_check/mid360_check.egg-info/top_level.txt
+reading manifest file '../../build/mid360_check/mid360_check.egg-info/SOURCES.txt'
+writing manifest file '../../build/mid360_check/mid360_check.egg-info/SOURCES.txt'
+running build
+running build_py
+copying mid360_check/check_node.py -> /home/humi/livox_ws/build/mid360_check/build/lib/mid360_check
+running install
+running install_lib
+copying /home/humi/livox_ws/build/mid360_check/build/lib/mid360_check/check_node.py -> /home/humi/livox_ws/install/mid360_check/lib/python3.10/site-packages/mid360_check
+byte-compiling /home/humi/livox_ws/install/mid360_check/lib/python3.10/site-packages/mid360_check/check_node.py to check_node.cpython-310.pyc
+running install_data
+copying launch/mid360_check_launch.py -> /home/humi/livox_ws/install/mid360_check/share/mid360_check/launch
+running install_egg_info
+removing '/home/humi/livox_ws/install/mid360_check/lib/python3.10/site-packages/mid360_check-0.1.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/mid360_check/mid360_check.egg-info to /home/humi/livox_ws/install/mid360_check/lib/python3.10/site-packages/mid360_check-0.1.0-py3.10.egg-info
+running install_scripts
+Installing check_node script to /home/humi/livox_ws/install/mid360_check/lib/mid360_check
+writing list of installed files to '/home/humi/livox_ws/build/mid360_check/install.log'

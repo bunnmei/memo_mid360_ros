@@ -1,0 +1,178 @@
+[0.729s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'mid360_check']
+[0.729s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['mid360_check'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fd059ba3700>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fd059ba3100>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fd059ba3100>>)
+[1.881s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.882s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.883s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.883s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.883s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.884s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.884s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/humi/livox_ws'
+[1.885s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.885s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.973s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.973s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK2) by extensions ['ignore', 'ignore_ament_install']
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK2) by extension 'ignore'
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK2) by extension 'ignore_ament_install'
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK2) by extensions ['colcon_pkg']
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK2) by extension 'colcon_pkg'
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK2) by extensions ['colcon_meta']
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK2) by extension 'colcon_meta'
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK2) by extensions ['ros']
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK2) by extension 'ros'
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK2) by extensions ['cmake', 'python']
+[1.979s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK2) by extension 'cmake'
+[2.063s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK2) by extension 'python'
+[2.064s] DEBUG:colcon.colcon_core.package_identification:Package 'Livox-SDK2' with type 'cmake' and name 'livox_sdk2'
+[2.064s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.065s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.065s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.066s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.067s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.067s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.068s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.068s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.069s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.069s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.070s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.070s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.071s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.071s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.071s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.071s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.072s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.072s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.073s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.073s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.073s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.073s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.074s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['ignore', 'ignore_ament_install']
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ignore'
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ignore_ament_install'
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['colcon_pkg']
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'colcon_pkg'
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['colcon_meta']
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'colcon_meta'
+[2.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['ros']
+[2.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ros'
+[2.099s] DEBUG:colcon.colcon_core.package_identification:Package 'src/livox_ros_driver2' with type 'ros.ament_cmake' and name 'livox_ros_driver2'
+[2.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/mid360_check) by extensions ['ignore', 'ignore_ament_install']
+[2.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/mid360_check) by extension 'ignore'
+[2.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/mid360_check) by extension 'ignore_ament_install'
+[2.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/mid360_check) by extensions ['colcon_pkg']
+[2.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/mid360_check) by extension 'colcon_pkg'
+[2.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/mid360_check) by extensions ['colcon_meta']
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/mid360_check) by extension 'colcon_meta'
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/mid360_check) by extensions ['ros']
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/mid360_check) by extension 'ros'
+[2.106s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mid360_check' with type 'ros.ament_python' and name 'mid360_check'
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extensions ['ignore', 'ignore_ament_install']
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'ignore'
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'ignore_ament_install'
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extensions ['colcon_pkg']
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'colcon_pkg'
+[2.109s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extensions ['colcon_meta']
+[2.109s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'colcon_meta'
+[2.109s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extensions ['ros']
+[2.109s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'ros'
+[2.110s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extensions ['cmake', 'python']
+[2.110s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'cmake'
+[2.110s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'python'
+[2.111s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extensions ['python_setup_py']
+[2.111s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'python_setup_py'
+[2.112s] Level 1:colcon.colcon_core.package_identification:_identify(tools/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[2.112s] Level 1:colcon.colcon_core.package_identification:_identify(tools/__pycache__) by extension 'ignore'
+[2.113s] Level 1:colcon.colcon_core.package_identification:_identify(tools/__pycache__) by extension 'ignore_ament_install'
+[2.113s] Level 1:colcon.colcon_core.package_identification:_identify(tools/__pycache__) by extensions ['colcon_pkg']
+[2.113s] Level 1:colcon.colcon_core.package_identification:_identify(tools/__pycache__) by extension 'colcon_pkg'
+[2.113s] Level 1:colcon.colcon_core.package_identification:_identify(tools/__pycache__) by extensions ['colcon_meta']
+[2.114s] Level 1:colcon.colcon_core.package_identification:_identify(tools/__pycache__) by extension 'colcon_meta'
+[2.114s] Level 1:colcon.colcon_core.package_identification:_identify(tools/__pycache__) by extensions ['ros']
+[2.114s] Level 1:colcon.colcon_core.package_identification:_identify(tools/__pycache__) by extension 'ros'
+[2.115s] Level 1:colcon.colcon_core.package_identification:_identify(tools/__pycache__) by extensions ['cmake', 'python']
+[2.115s] Level 1:colcon.colcon_core.package_identification:_identify(tools/__pycache__) by extension 'cmake'
+[2.116s] Level 1:colcon.colcon_core.package_identification:_identify(tools/__pycache__) by extension 'python'
+[2.116s] Level 1:colcon.colcon_core.package_identification:_identify(tools/__pycache__) by extensions ['python_setup_py']
+[2.116s] Level 1:colcon.colcon_core.package_identification:_identify(tools/__pycache__) by extension 'python_setup_py'
+[2.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.117s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.255s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'livox_ros_driver2' in 'src/livox_ros_driver2'
+[2.256s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'livox_sdk2' in 'Livox-SDK2'
+[2.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.270s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/humi/livox_ws/install
+[2.280s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/humble
+[2.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.652s] Level 5:colcon.colcon_core.verb:set package 'mid360_check' build argument 'cmake_args' from command line to 'None'
+[2.653s] Level 5:colcon.colcon_core.verb:set package 'mid360_check' build argument 'cmake_target' from command line to 'None'
+[2.653s] Level 5:colcon.colcon_core.verb:set package 'mid360_check' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.653s] Level 5:colcon.colcon_core.verb:set package 'mid360_check' build argument 'cmake_clean_cache' from command line to 'False'
+[2.653s] Level 5:colcon.colcon_core.verb:set package 'mid360_check' build argument 'cmake_clean_first' from command line to 'False'
+[2.654s] Level 5:colcon.colcon_core.verb:set package 'mid360_check' build argument 'cmake_force_configure' from command line to 'False'
+[2.654s] Level 5:colcon.colcon_core.verb:set package 'mid360_check' build argument 'ament_cmake_args' from command line to 'None'
+[2.654s] Level 5:colcon.colcon_core.verb:set package 'mid360_check' build argument 'catkin_cmake_args' from command line to 'None'
+[2.654s] Level 5:colcon.colcon_core.verb:set package 'mid360_check' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.655s] DEBUG:colcon.colcon_core.verb:Building package 'mid360_check' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/humi/livox_ws/build/mid360_check', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/humi/livox_ws/install/mid360_check', 'merge_install': False, 'path': '/home/humi/livox_ws/src/mid360_check', 'symlink_install': False, 'test_result_base': None}
+[2.656s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.661s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.662s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/humi/livox_ws/src/mid360_check' with build type 'ament_python'
+[2.663s] Level 1:colcon.colcon_core.shell:create_environment_hook('mid360_check', 'ament_prefix_path')
+[2.675s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/humi/livox_ws/install/mid360_check/share/mid360_check/hook/ament_prefix_path.ps1'
+[2.682s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/humi/livox_ws/install/mid360_check/share/mid360_check/hook/ament_prefix_path.dsv'
+[2.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/humi/livox_ws/install/mid360_check/share/mid360_check/hook/ament_prefix_path.sh'
+[2.690s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.691s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.948s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/humi/livox_ws/src/mid360_check'
+[2.950s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.950s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.291s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: bdist_egg, easy_install, dist_info, install, init_catalog, sdist, alias, register, compile_catalog, build, check, install_egg_info, install_scripts, upload_docs, extract_messages, bdist, egg_info, upload, rotate, install_lib, build_ext, update_catalog, install_data, build_scripts, develop, test, symlink_data, clean, build_clib, setopt, saveopts, build_py, bdist_dumb, bdist_rpm, install_headers
+[3.299s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/humi/livox_ws/src/mid360_check': PYTHONPATH=/home/humi/livox_ws/build/mid360_check/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/humi/livox_ws/install/mid360_check/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mid360_check build --build-base /home/humi/livox_ws/build/mid360_check/build install --record /home/humi/livox_ws/build/mid360_check/install.log --install-scripts $base/lib/mid360_check --single-version-externally-managed install_data
+[3.560s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/humi/livox_ws/src/mid360_check' returned '0': PYTHONPATH=/home/humi/livox_ws/build/mid360_check/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/humi/livox_ws/install/mid360_check/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mid360_check build --build-base /home/humi/livox_ws/build/mid360_check/build install --record /home/humi/livox_ws/build/mid360_check/install.log --install-scripts $base/lib/mid360_check --single-version-externally-managed install_data
+[3.562s] Level 1:colcon.colcon_core.environment:checking '/home/humi/livox_ws/install/mid360_check' for CMake module files
+[3.562s] Level 1:colcon.colcon_core.environment:checking '/home/humi/livox_ws/install/mid360_check' for CMake config files
+[3.563s] Level 1:colcon.colcon_core.environment:checking '/home/humi/livox_ws/install/mid360_check/lib'
+[3.563s] Level 1:colcon.colcon_core.environment:checking '/home/humi/livox_ws/install/mid360_check/bin'
+[3.563s] Level 1:colcon.colcon_core.environment:checking '/home/humi/livox_ws/install/mid360_check/lib/pkgconfig/mid360_check.pc'
+[3.564s] Level 1:colcon.colcon_core.environment:checking '/home/humi/livox_ws/install/mid360_check/lib/python3.10/site-packages'
+[3.564s] Level 1:colcon.colcon_core.shell:create_environment_hook('mid360_check', 'pythonpath')
+[3.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/humi/livox_ws/install/mid360_check/share/mid360_check/hook/pythonpath.ps1'
+[3.564s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/humi/livox_ws/install/mid360_check/share/mid360_check/hook/pythonpath.dsv'
+[3.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/humi/livox_ws/install/mid360_check/share/mid360_check/hook/pythonpath.sh'
+[3.565s] Level 1:colcon.colcon_core.environment:checking '/home/humi/livox_ws/install/mid360_check/bin'
+[3.565s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mid360_check)
+[3.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/humi/livox_ws/install/mid360_check/share/mid360_check/package.ps1'
+[3.567s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/humi/livox_ws/install/mid360_check/share/mid360_check/package.dsv'
+[3.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/humi/livox_ws/install/mid360_check/share/mid360_check/package.sh'
+[3.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/humi/livox_ws/install/mid360_check/share/mid360_check/package.bash'
+[3.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/humi/livox_ws/install/mid360_check/share/mid360_check/package.zsh'
+[3.569s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/humi/livox_ws/install/mid360_check/share/colcon-core/packages/mid360_check)
+[3.569s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.569s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.570s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.570s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.570s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.570s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/humi/livox_ws/install/local_setup.ps1'
+[3.571s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/humi/livox_ws/install/_local_setup_util_ps1.py'
+[3.572s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/humi/livox_ws/install/setup.ps1'
+[3.573s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/humi/livox_ws/install/local_setup.sh'
+[3.574s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/humi/livox_ws/install/_local_setup_util_sh.py'
+[3.574s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/humi/livox_ws/install/setup.sh'
+[3.575s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/humi/livox_ws/install/local_setup.bash'
+[3.575s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/humi/livox_ws/install/setup.bash'
+[3.576s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/humi/livox_ws/install/local_setup.zsh'
+[3.577s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/humi/livox_ws/install/setup.zsh'
